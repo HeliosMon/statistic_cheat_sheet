@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(CheatsheetTemplate NONE)
+project(statistic_cheat_sheet NONE)
 include(UseLATEX)
 
 add_custom_target(
@@ -17,7 +17,7 @@ set(IMAGE_DIRS
 )
 
 add_latex_document(
-    CheatsheetTemplate.tex
+    statistic_cheat_sheet.tex
     FORCE_PDF
     IMAGE_DIRS ${IMAGE_DIRS}
     DEPENDS writegitid
